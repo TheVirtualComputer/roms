@@ -1,0 +1,67 @@
+BIOS Upgrade Instructions 
+------------------------- 
+ 
+Creating a Bootable Floppy (You must use a DOS system to create the 
+bootable floppy) 
+-------------------------------------------------------------------- 
+ 
+1.  Place an unformatted floppy diskette in the floppy drive and format 
+    the floppy using the /S option.  example: "format a: /s" 
+ 
+2.  Alternatively, place a formatted floppy in the floppy drive and use 
+    the "sys" command.  example: "sys a:" 
+ 
+Upgrading to the Latest BIOS 
+----------------------------------- 
+1.  Be sure you have downloaded the correct BIOS file from the BBS. 
+ 
+2.  Note the settings of the SETUP parameters.  Enter SETUP by hitting 
+    the F1 key during boot up.  Write down the settings for each of 
+    parameters.  At the end of the BIOS update process you should set the 
+    parameters to default values by hitting the F5 key, and then 
+    re-enter these values you have written down. 
+ 
+3.  Follow the instructions (above) for creating a bootable floppy to 
+    create a bootable floppy diskette. 
+ 
+4.  Insert the bootable floppy into drive a:. 
+ 
+5.  Extract the contents of the BIOS file you downloaded, onto the 
+    bootable floppy.  You simply type the filename (without the 
+    extension) followed by a: , for example "BIOS A:". 
+ 
+6.  Place the bootable floppy containing the BIOS into drive a: of the 
+    system that you want to upgrade and boot the system while the floppy 
+    diskette is in the drive. 
+ 
+7.  Press ENTER to go to the Main Menu. 
+ 
+8.  Highlight the option that reads "Update Flash Memory From a File" and 
+    press ENTER. 
+ 
+9.  Highlight the option that reads "Update System BIOS" and press 
+    ENTER. 
+ 
+10. At the screen that asks you to enter the path and name of the file, 
+    press TAB to highlight the file name and press ENTER. 
+ 
+11. The system will give you a warning that BIOS is about to be changed. 
+    If you wish to continue simply hit ENTER. 
+ 
+12. Once the BIOS has been successfully loaded, remove the floppy 
+    diskette from the drive.  Hit ENTER at the prompt to reboot the 
+    system. 
+ 
+13. Check to make sure the BIOS version is the new version as the system 
+    reboots. 
+ 
+14. Enter Setup by pressing the F1 key during boot up.  Once in Setup, 
+    press the F5 to set the parameters back to default values. 
+    Re-enter the values you wrote down at the beginning of this process. 
+    If you do not set the CMOS values back to defaults using the F5 
+    key, the system may function erratically. 
+ 
+Note: you may encounter a CMOS Checksum error or other problem after 
+reboot.  Try shutting down the system and booting up again.  CMOS 
+checksum errors require that you enter Setup, check your settings, save 
+your settings, and exit Setup. 
