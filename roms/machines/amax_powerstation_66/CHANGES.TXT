@@ -1,0 +1,14 @@
+Changes in FMUP.EXE from release 2.2
+
+1. Default extensions have been added for user areas (.USR) and
+   language extensions (.LNG).  The new default extension when the
+   file type is not user or language is now *.*.
+
+2. Memory allocation problems when updating language modules have now
+   been fixed.
+
+3. Memory allocation problems for general updating have been fixed.
+
+4. Capacity has been added to recover using bios protected procedures and
+   tables provided in file form.
+
