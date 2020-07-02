@@ -1,0 +1,14 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        Am386DX-40, (387DX ???)
+Chipset:        UMC UM82C491F, UM82C493F
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 08/08/93
+ROM:            2 x 27256 (64k)
+File:           3umm003.bin
+MD5:            9bb6057ad9c49461310d1913d965600e
+Comment:        [386dx/491&493.zip]
+Comment:        [386dx/umc491_2.zip]

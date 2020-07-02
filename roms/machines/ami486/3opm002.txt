@@ -1,0 +1,13 @@
+Name:           MAO13
+Revision:       REV A
+CPU/FPU:        386DX, (387DX ???)
+Chipset:        OPTI 82C495XLC
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 08/08/93; AA2740000
+ROM:            ??? (64k)
+File:           3opm002.bin
+MD5:            439bdcfd6d2b691546a5213b3a4ddbb7
+Comment:        [386dx/rom3dx01.rar]
