@@ -1,0 +1,16 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        286, 287
+Chipset:        Headland HT101, HT102
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           Quadtel; Version 3.04.02; 11/09/89
+ROM:            ??? (32k)
+File:           2hlu001h.bin
+MD5:            1e68ff70d6553bc7f5559539e82190f4
+ROM:            ??? (32k)
+File:           2hlu001l.bin
+MD5:            25f09fd9027c7c09f54bd47fc8fd22f3
+Comment:        [286/amiht101.1/amiht-{h,l}.bin]

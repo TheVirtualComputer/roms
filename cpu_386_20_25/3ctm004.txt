@@ -1,0 +1,16 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX-20/25, (387DX ???), панель под 287
+Chipset:        C&T 82C301C, 82C302, 82C303, 82C304, 82C305, 82C306, 82C206
+ICs:            VL16C452-QC
+Memory:         SIMM-30 (8)
+Exp. slots:     ???, есть разьем 32BIT BUS - вряд 2 разьема по 62 вывода
+Id string:      ???
+BIOS:           AMI; 02/25/89
+ROM:            ??? (32k)
+File:           3ctm004h.bin
+MD5:            6cf6187c43acb8202bd6d01bb7a2652a
+ROM:            ??? (32k)
+File:           3ctm004l.bin
+MD5:            8bcd6e2f01a2455a0e162c747899957c
+Comment:        [386dx/chips25.zip]
