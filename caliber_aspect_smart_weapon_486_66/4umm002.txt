@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       PCB REV 2.0
+CPU/FPU:        Intel DX2ODPR66 (in LIF-socket)
+Chipset:        UMC UM82C491F, UM82C493F
+ICs:            AMIKEY, MX8315PC, IS61C256A-20N (9)
+Memory:         SIMM-30 (8)
+Exp. slots:     ISA-8 (1), ISA-16 (3), VLB (3)
+Id string:      40-0102-428003-00101111-080893-UMC491F-F
+BIOS:           AMI 486DX ISA BIOS (AB1830625)
+ROM:            M27C512 (64k)
+File:           4umm002.bin
+MD5:            91207a95ba3c8588ec62545c9895e770
+Comment:        -
