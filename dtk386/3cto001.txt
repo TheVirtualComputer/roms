@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386SX, (387SX ???)
+Chipset:        C&T NEAT
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           DTK; 12/05/90; 1.41.12 R1 09/13/90
+ROM:            ??? (64k)
+File:           3cto001.bin
+MD5:            9db3481d8fb338e9e79ec0b743a832e3
+Comment:        [386sx/neat_sx.zip]
