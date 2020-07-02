@@ -1,0 +1,13 @@
+Name:           ??? (M507)
+Revision:       V1.2
+CPU/FPU:        Socket 7
+Chipset:        i430FX SB82437FX66, SB82371FB
+ICs:            S82438FX (2), WB14L 128LQF-A (2), M5818, BESTKEY, UM8663BF
+Memory:         SIMM-72 (4)
+Exp. slots:     ISA-16 (4), PCI (3)
+Id string:      01/05/96-i430FX-2A59CF54C-00
+BIOS:           Award  PCI/PNP 586  S/N:032773801  "01/05/1996 RELEASE"
+ROM:            M507 1-5 (128k)
+File:           5ifw002.bin
+MD5:            -
+Comment:        -

@@ -1,0 +1,15 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX-40, (387DX ???)
+Chipset:        OPTI 82C495SLC
+ICs:            KC83C206Q, синтезатор
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI
+ROM:            ??? (64k)
+File:           3opm008.bin
+MD5:            0876a8cc0aba128e76129b3f8c3bcee5
+Comment:        панель под сопр весьма велика (4квадрата выводов)
+Comment:        Последние 156 байтов прошивки заполнены нулями.
+Comment:        [386dx/opt495sl.zip]
