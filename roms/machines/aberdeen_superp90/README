@@ -1,0 +1,35 @@
+
+   IF YOUR ORIGINAL BIOS IS 'SM***', USE AMIFLASH BIOS UPDATE PROCEDURE:
+   DOWNLOAD AMIFLASH.COM & SM507.EXE BIOS FILE.
+
+   STEP 1  RUN 'SM507.EXE' FILE. YOU WILL GET 'SM507.ROM' FILE SIZE 131072.
+   STEP 2  TURN OFF POWER, MOVE jumper on JP97 and JP98 FROM 1-2 TO 2-3.
+   STEP 3  SHORT RESISTOR R92:510 Ohm(green/brown/brown) WHICH CAN BE FOUND
+           IN BETWEEN LAST TWO ISA SLOTS J2 AND J3. THIS CAN BE DONE BY
+           CLIPPING BOTH ENDS OF THE RESISTOR TOGETHER.
+
+     Note: 1. The R92 should be shorted while programming the BIOS.
+           2. The motherboards shipped out after Aug.'94 have resistor R92 51
+              Ohm(green/brown/black), therefore, don't need short the resistor.
+
+   STEP 4  TURN ON SYSTEM, at A:> OR C:> RUN AMIFLASH PROGRAM.
+   STEP 5  KEY IN NEW BIOS NAME (e.g. AMIFLASH SM507.ROM)
+   STEP 6  After the message REPROGRAMMING THE BIOS is replaced with PRESS
+           ANY KEY TO REBOOT, power down the comuter and replace jumpers on
+           JP97 and JP98 to Pins 1-2.
+   STEP 7  Load 'Optimal' default in the CMOS.(important)
+
+  ----------------------------------------------------------------------------
+
+   IF YOUR ORIGINAL BIOS IS 'S1025x', USE AMIFLASH PnP BIOS UPDATE PROCEDURE:
+   DOWNLOAD SM507.EXE BIOS FILE.
+
+   STEP 1  UNZIP 'SM507' ROM FILES & RENAME it to "SUPMICRO.ROM".
+   STEP 2  COPY "SUPMICRO.ROM" to a FLOPPY DISK.
+   STEP 3  TURN OFF POWER, MOVE jumper on JP97 and JP98 FROM 1-2 TO 2-3.
+   STEP 4  MAKE SURE SUPMICRO.ROM FILE IS IN THE A: DISK,(FILE SIZE 131072).
+   STEP 5  PRESS [Ctrl]+[Home] AND TURN ON THE POWER.
+   STEP 6  AFTER THE FLOPPY BEGINS TO READ THE DISK, RELEASE [Ctrl]+[Home]
+   STEP 7  THE SYSTEM WILL AUTOMATICALLY REBOOT AFTER UPDATING THE BIOS.
+           JP97 and JP98 LEAVE AT 2-3.
+   STEP 8  Load 'Optimal' default in the CMOS.(important)
