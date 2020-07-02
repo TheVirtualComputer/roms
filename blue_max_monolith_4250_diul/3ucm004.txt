@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX, 387
+Chipset:        UniChip U4800
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 06/06/92
+ROM:            27C512 (64k)
+File:           3ucm004.bin
+MD5:            91b348d091beadad8c71b30d600102e5
+Comment:        [386dx/u4800.zip], [386dx/486_dlc.zip]

@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX-33, 387DX
+Chipset:        ALI M1419
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 12/12/91
+ROM:            ??? (64k)
+File:           3alm004.bin
+MD5:            dcfa318942dd91e722bb6a6ef1f44b08
+Comment:        [386dx/a_m1419.zip]
