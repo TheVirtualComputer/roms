@@ -1,0 +1,13 @@
+Name:           ASUS PVI-486SP3
+Revision:       REV 1.22
+CPU/FPU:        Socket 3
+Chipset:        SiS 85C496/85C497
+ICs:            FDC37C665GT, AMIKEY-2, VT8228N, IS61C256AH-15N (9)
+Memory:         SIMM-72 (2)
+Exp. slots:     ISA-16 (3), VLB (1), PCI (3)
+Id string:      08/08/95-SiS-496-497B-PVI-4SP3C-00
+BIOS:           AWARD ISA/PCI 486 S/N:022772163  #401A0-0301
+ROM:            SST29EE010 (128k)
+File:           4siw003.bin
+MD5:            -
+Comment:        -

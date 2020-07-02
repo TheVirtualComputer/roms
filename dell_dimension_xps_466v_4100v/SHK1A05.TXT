@@ -1,0 +1,26 @@
+A05 bios revision for one of the Dell XPS 4xxV systems.
+
+Be sure this is the right BIOS for your system. If your
+system came from Dell with a DX4 processor installed, it
+most definately isn't.
+
+THIS BIOS WILL NOT WORK WITH THE PENTIUM PCI SYSTEM.
+
+Version Notes
+-------------
+
+Version A05 ------------------- 
+
+     Version A05 will fix the following;
+
+     * Slow loading of DOS applications when a PS/2 mouse driver is installed.
+
+
+Version A04 -------------------
+ 
+	This version adds support for drives over 500MB. It does
+	not include LBA! This means you get a maximum of 528MB
+	useable space no matter how much bigger than 528MB
+	your drive is.
+
+

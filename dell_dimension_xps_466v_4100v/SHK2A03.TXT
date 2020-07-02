@@ -1,0 +1,9 @@
+October 13, 1994
+
+     This is BIOS change from A02 to A03;
+
+
+	* Secondary IDE connector was disabled in BIOS.  Need to enable for use of devices such as IDE CD-ROM.
+		- Enabled SMC CR0 bit 0
+
+	* Checksum = 5F53
