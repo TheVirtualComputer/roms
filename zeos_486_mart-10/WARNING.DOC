@@ -1,0 +1,14 @@
+11/12/93
+
+   Format a blank diskette for your A: drive using the command
+FORMAT A: /U /S.  Copy all these file, FLASH.EXE, FLASH.DOC,
+and BIOS.BIN onto the newly format diskette.  Reboot your
+system using this diskette, and after typing ENTER twice in
+response to the TIME and DATE commands, type the command
+FLASH and follow the directions.
+
+   Having memory resident programs and device drivers
+can cause the process of upgrading your BIOS to FAIL.
+Failure may mean that YOUR SYSTEM WILL NOT BOOT AND THE
+MOTHERBOARD WILL HAVE TO BE REPLACED.
+

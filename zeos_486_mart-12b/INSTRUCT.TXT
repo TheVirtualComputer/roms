@@ -1,0 +1,24 @@
+The MARTIN GREEN software has two components:
+A new MARTIN BIOS (for DOS apps) and a Windows screensaver (for Windows).
+
+The BIOS is flashed in as usual.  The EXTENDED BIOS FEATURES menu now has a
+SCREEN SAVER option which can be set to {disabled, 10min, 30min, 1hr}.
+This will cause the system to "go green"--shutting off the hard drive,
+blanking the video screen, and slowing the CPU clock.  The CPU continues
+to run at a slow rate, it does not stop.  This feature will not engage if
+the processor is in protected mode.  Therefore, if you have EMM386 (or other
+EMS memory manager) loaded the screen saver will not engage.  It is important to set the CMOS correctly
+for the CPU speed and DRAM system memory timing.
+
+The screensaver [WIN.SCR] should be copied into the \WINDOWS subdiectory.
+BE SURE TO EDIT YOUR CONFIG.SYS and exclude the E000:0000-E000:03FFh 
+memory range from the paging pool area of any memory managers.
+Specifically, the EMM386 line must include the X=E000-E3FF parameter.
+If this is not done, the machine will crash upon engaging the screensaver,
+since the screensaver uses this memory area to communicate with Windows.
+Run Windows, open the MAIN/CONTROLPANEL/DESKTOP/SCREENSAVER window.
+Select the Screen Saver option and set the name to "ZEOS Screen Saver".
+Set the DELAY to 1 minute, or click on the TEST button.  The screen should
+go blank, and the hard drive should click off.  Moving the mouse or striking
+a key on the keyboard should bring the system back.
+

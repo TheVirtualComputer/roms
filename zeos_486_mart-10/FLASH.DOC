@@ -1,0 +1,89 @@
+
+11/12/93
+
+
+Program Name: flash.exe
+
+Purpose: Program the Flash BIOS. Version 1.5
+
+Syntax:
+
+FLASH	[file=<filename>]
+	[vl82c486]
+	[vl82c480]
+	[386sl]
+	[486sl]
+	[noboot]
+	[counters]
+
+
+Program Options:
+
+[file=<filename>] Specifies a disk file that contains the BIOS image. The
+	default name is "BIOS.BIN".
+	
+[vl82c486] Tells the program that the system board contains the VL82C486
+	chip set. The VL82C486 is the chipset used on the Duck & Goose.
+	This option is not normally used, if no chipset is specified,
+	then the flash program will automatically determine which chipset
+	is present.
+
+[vl82c480] Tells the program that the system board contains the VL82C480
+	chip set. The VL82C480 is the chipset used on the Martin.
+	This option is not normally used, if no chipset is specified,
+	then the flash program will automatically determine which chipset
+	is present.
+
+[386sl] Tells the program that the system board contains a 386SL processor.
+	The 386SL is used on the X20. This option is not normally used,
+	the flash program will automatically determine if a 386SL is
+	present.
+
+[486sl] Tells the program that the system board contains a 486SL processor.
+	The 486SL is used on the X22. This option is not normally used,
+	the flash program will automatically determine if a 486SL is
+	present.
+
+[noboot] Prevents the automatic reboot after programming the BIOS.
+
+[counters] Enables the feature which displays the address of each byte that is
+	being programmed. Default is no counters.
+
+
+
+
+The BIOS file will be loaded into memory, then a warning message will be
+displayed. The programming process should not be interrupted. If the
+flash bios is left partially programmed, it will not work correctly.
+
+There are three steps to the programming processed, first the flash is
+filled with zeros, then it is erased (filled with FFs), and then the
+BIOS program data is written. Progress through these steps will be
+displayed on the screen.
+
+The new BIOS may require different system initialization, or different
+CMOS setting, than the BIOS it replaces. The system must be reset after
+the flash is programmed. Normally, after the new BIOS is loaded, the flash
+program will display some summary programming statistics, and then reset the
+computer after five seconds. If the "noboot" option is active, then the
+computer will not reboot. The program summary will be left on the display.
+The program will not return to DOS, the user must manually reset the
+computer to ensure proper initialization of the new BIOS.
+
+
+The flash program, due to the need to directly program ROM memory space, 
+does not comply with the Virtual Control Program Interface (VCPI).  This 
+program requires that the processor is running in real-mode.  Multitasking 
+programs (i.e. WINDOWS) and memory manipulative programs (i.e. EMM386.EXE) 
+can not be active when the flash program is executed.  The flash program 
+currently detects the state of the processor and terminates if the processor 
+is in any state other than real-mode. 
+
+To assure that you are in real-mode, make a system floppy disk that does not 
+contain the CONFIG.SYS or AUTOEXEC.BAT files.  Boot the machine with the 
+system disk in drive A.  This will assure that the machine is running in 
+real-mode without modifying the CONFIG.SYS and AUTOEXEC.BAT files that are 
+on the hard-disk. 
+
+If you have any questions on generation of a system floppy disk consult 
+your DOS manual regarding the format or sys commands. 
