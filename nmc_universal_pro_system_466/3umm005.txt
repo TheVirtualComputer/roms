@@ -1,0 +1,15 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX-40, (387DX ???)
+Chipset:        UMC UM82C491F
+ICs:            UM61256CK-20 (4), IS61C64AH-20, ICW42C07-01P
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 04/04/93
+ROM:            ??? (64k)
+File:           3umm005.bin
+MD5:            42ea974e6219af24185818d3ce4f63f8
+Comment:        CMOS-а на плате не наблюдалось
+Comment:        под сопроцессором было место под что-то (80-100 ножек)
+Comment:        [386dx/umc491.zip]

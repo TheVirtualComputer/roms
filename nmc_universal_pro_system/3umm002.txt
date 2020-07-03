@@ -1,0 +1,14 @@
+Name:           TK-82C491/386-4N-DD2C (-D02C)
+Revision:       ???
+CPU/FPU:        Am386DX-40, (387DX ???)
+Chipset:        UMC UM82C491F
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 04/04/93
+ROM:            ??? (64k)
+File:           3umm002.bin
+MD5:            d03d9cbb588cdf2f83092b5bdf4552eb
+Comment:        [386dx/3dx_u491.zip]
+Comment:        [386dx/umc386_1.zip]
