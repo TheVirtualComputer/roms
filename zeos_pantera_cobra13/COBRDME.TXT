@@ -1,0 +1,79 @@
+							7/14/95
+
+
+Recent Cobra BIOS versions and their respective changes:
+
+Version	Date	Description
+
+13.0	7/14	12.02 is a release
+
+12.02	7/13	378, 278, 3BC is default parallel port order
+
+12.01	3/28	Can autotype hard drives after CMOS is reset.
+
+1994:
+
+12.0	11/30	11.02 is a release.
+
+11.02	11/16	Fixed > 2 com port or 3 LPT port autoconfig problem.
+
+11.01	10/31	Razor enable setup option added.
+
+11.0	7/25	Enabled Setup option to have Int15 fnc. 88h report only 16 Mb
+		of memory when more than 64 Mb of memory is installed.
+
+10.0	7/15	No setup option for Int15 fnc 88h. Always returns 16 Mb if
+		more than 64 Mb RAM installed. All other 9.x changes in.
+
+9.04	7/11	Enabled Setup option to have Int15 fnc. 88h report only 16 Mb
+		of memory when more than 64 Mb of memory is installed.
+
+9.03	7/8	Fixed LBA translate routine. Takes care of bug reported by
+		Western Digital when their disk driver is used with other
+		manufacturers large drives in LBA mode.
+
+9.02	7/1	Added Int 15 function E801, which reports RAM > 64 Mb
+
+9.01	6/9	Prefetch option added to Hard disk 0 setup.
+
+9.0	5/25	official -09 release, Com 2 autoconfig fixed, a temporary
+		flag turned off that had cache disabled on boot for ver. 8
+
+8.0	5/23	official -08 release, also has check for IB ver of SIO chip,
+		 if found, sets all PCI int line regs = 10 and disables bus
+		 master on PCI slot 8
+
+7.01	5/06	fixed hard drive init and mode set bugs
+
+7.0	4/26	changed from 6.13 to 7.0. One minor performance improvement
+		change in hard drive code (similar to 6.13 hard drive change).
+
+6.13	4/21	fixed summary screen/scsi disabled boot delay; fixed razor
+		initialization problem (fixes a hardware glitch); minor
+		hard disk read/write performance improvement
+
+6.12	4/18	LBA support added
+
+6.11	4/14	added PCI interrupt steering code
+
+6.10	3/24	3/18/94 pre-release - new PCI code
+
+6.09		3/18/94 pre-release sans IO
+
+6.08		PCISETUP fixed, PC Tech copyright added
+
+6.07	3/14	improved I/O init, disables com ports instead of powering off
+
+6.06	3/11	speed switch w/ emm386 & windows fixed
+		and scsi int 12 fixed (mouse int gone)
+
+6.05	3/10	fixed hard drive access bug (always
+		quit if interruptwait called)
+
+6.04	3/09	> 64 Mb support, at least for sum scrn
+
+6.03	3/08	IDE Seagate/WD fix
+
+6.02		merged changes from 0026-04 bios see eco
+
+6.01	2/21	changed cpu speed thresholds

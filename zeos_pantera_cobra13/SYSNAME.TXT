@@ -1,0 +1,3 @@
+* (comment lines begin with an asterisk in column 1)
+COBRA=002613.BIN
+
