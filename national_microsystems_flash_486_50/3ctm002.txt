@@ -1,0 +1,13 @@
+Name:           PEAK/DM
+Revision:       ???
+CPU/FPU:        386DX, (387DX ???)
+Chipset:        C&T ...
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 05/05/91
+ROM:            ??? (64k)
+File:           3ctm002.bin
+MD5:            e5899789781a260a61ad978f03bb396f
+Comment:        [386dx/rom3dx03.rar]

@@ -1,0 +1,36 @@
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+  ³KMX-C-02                               ÚÄÄÄÄÄ¿ ÚÄÄÄÄ¿     ³
+  ³    0                   0         0    ³bat +³ ³keyb³  0  ³
+  ³ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ÀÄÄÄÄÄÙ ÀÄÄÄÄÙ     ³
+  ³³C ³ ³s ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³s ³  ..power...       ³
+  ³³a ³ ³l ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³l ³ÚÂÄÂÄÂÄÂÄÂÄÂÄÂÄÂÄÂ¿³
+  ³³c ³ ³o ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³o ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³h ³ ³t ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³t ³³³ ³S³I³M³M³'³s³ ³³³
+  ³³e ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³  ³ ³16³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³8 ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³o ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³n ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³l ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³³y ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³B³ ³ ³ ³ ³ ³B³ ³³³
+  ³³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³³³A³ ³ ³ ³ ³ ³A³ ³³³
+  ³ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ³³N³ ³ ³ ³ ³ ³N³ ³³³
+  ³     ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿ ÚÄÄ¿     ³³K³ ³ ³ ³ ³ ³K³ ³³³
+  ³     ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³     ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ³³0³ ³ ³ ³ ³ ³3³ ³³³
+  ³     ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ³³ ³ ³ ³ ³ ³ ³ ³ ³³³
+  ³     ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ÀÁÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÁÙ³
+  ³     ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ÚÄÄ¿               ³
+  ³ÚÄÄ¿0³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ³  ³Osc          0 ³
+  ³³C ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³ ³  ³     ÀÄÄÙ.              ³
+  ³³a ³ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ ÀÄÄÙ                        ³
+  ³³c ³                             .                        ³
+  ³³h ³        .   ÚÄÄÄÄÄ¿   ÚÄÄÄÄÄ¿                         ³
+  ³³e ³   ÚÄÄÄ¿    ³387  ³   ³F82C ³                         ³
+  ³³  ³   ³386³    ³  sx ³   ³836 A³                         ³
+  ³³o ³   ÀÄÄÄÙ    ÀÄÄÄÄÄÙ   ÀÄÄÄÄÄÙ                         ³
+  ³³n ³    sx             .                                  ³
+  ³³l ³                                                      ³
+  ³³y ³           ÚÄÄÄÄÄÄÄ¿ ÚÄÄÄÄÄÄÄÄÄÄÄ¿                    ³
+  ³³  ³ jampers  .³ BIOS  ³.³keyb. BIOS ³                    ³
+  ³ÀÄÄÙ           ÀÄÄÄÄÄÄÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÙ                    ³
+  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
