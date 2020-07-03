@@ -1,0 +1,13 @@
+Name:           M321
+Revision:       REV.2.7
+CPU/FPU:        Am386DX/DXL-40, A80387DX
+Chipset:        PC CHIPS CHIP5 4L04F1282, CHIP6 4L04F1666, C206 306
+ICs:            IS61C64AH-20N, AS7C256-20PC (4), HT6542
+Memory:         SIMM-30 (8)
+Exp. slots:     ISA-8 (2), ISA-16 (6)
+Id string:      ???
+BIOS:           AMI 386SX BIOS Ver.2.10 C-1216
+ROM:            ??? (64k)
+File:           3pcm002.bin
+MD5:            0b33365483d71885f64489517c7ab56a
+Comment:        -

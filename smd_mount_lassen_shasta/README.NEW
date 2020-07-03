@@ -1,0 +1,12 @@
+
+BIOS file : TX5I0202.AWD
+BIOS Ver. : 0202(#401A0-0202)
+Related Mainboard : PCI/I-P54(5)TP4, P/I-P55TP4(N)(XE)(G)
+Related Chipset : Intel 430FX PCIset chipset
+
+Description :
+
+1. Add APM 1.2 Support.
+2. Add CMOS item to Disable NCR BIOS.
+3. Add PCI reset when warmboot.
+4. Add more IRQ entries in PCI setup.

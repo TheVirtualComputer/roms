@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX-33 (-40 ???), 387DX
+Chipset:        SiS  85C310, 85C320, 85C330, 82C206
+ICs:            ??? (5 панелек для кэша)
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 07/07/91
+ROM:            ??? (64k)
+File:           3sim001.bin
+MD5:            92e255c1cc190298c7aec1ba0b947d0a
+Comment:        [386dx/sis31030.zip]

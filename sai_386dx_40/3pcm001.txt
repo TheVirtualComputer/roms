@@ -1,0 +1,15 @@
+Name:           M321
+Revision:       REV.2.5
+CPU/FPU:        C&T J38600DX-33, ULSI MathCo-DX33
+Chipset:        PC CHIPS CHIP5 4L04F1282, CHIP6 4L04F1666, C206 240
+ICs:            IS61C256A-20N (4), IS61C64AH-20N, LT38C41
+Memory:         SIMM-30 (8)
+Exp. slots:     ISA-8 (2), ISA-16 (6)
+Id string:      30-0201-ZZ1347-00101111-050591-M320-F
+BIOS:           AMI 386DX ISA BIOS (AA0544076)
+ROM:            AM27C512-205DC (64k)
+File:           3pcm001.bin
+MD5:            ee229d9b99ff4acc9544c0667bf6f56d
+Comment:        β®β ¦¥ ‘ αβ®β Ά ―« β¥ M320
+Comment:        [386dx/chip5-6.zip]
+Comment:        [386dx/chips5&6.zip]
