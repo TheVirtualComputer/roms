@@ -1,0 +1,19 @@
+BIOS Flashing Procedure 
+
+     Download the new Award Bios (*.BIN) or the new AMI Bios (*.ROM) from the drivers
+     section or from the Tyan website. 
+
+     Flash the bios with the Award/AMI flash utility from a clean MS DOS boot disk. Flashing
+     from Windows 9x, a Windows 9x Dos (aka: DOS 7.0) session, or from inside Windows
+     NT will cause problems. Flash ONLY from a clean MS-DOS boot diskette with no memory
+     managers or drivers loaded. 
+
+     After a successful flash, power down the system and clear the CMOS with the appropriate
+     jumper (Please refer to your manual for the proper jumper. Keep the jumper shorted for
+     5-10 seconds then remove the jumper and power the system on. This will clear any
+     extraneous data which may have been kept from the previous version of the bios. 
+
+     Setup your drive types and make sure that the bios settings are correct. 
+
+=---------------------------------------------------------------------------------------------=
+* TYAN does not take responsibility for damage incurred by flashing a BIOS. 
