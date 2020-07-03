@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386DX, (387DX ???)
+Chipset:        Symphony Laboratories SL82C461
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           AMI; 05/05/91
+ROM:            ??? (64k)
+File:           3sym001.bin
+MD5:            4e84aae5905b373fb05c17f5c745fe01
+Comment:        [386dx/sym461.zip]
