@@ -1,0 +1,13 @@
+Name:           ??? (367C)
+Revision:       REV 1.0
+CPU/FPU:        386, 387
+Chipset:        UniChip U4800-VLX
+ICs:            Em51256B-20P (4), W2465AK-15, HM82C206, KB controller w/ label
+Memory:         SIMM-30 (8)
+Exp. slots:     ISA-8 (1), ISA-16 (5)
+Id string:      40-0300-001107-00101111-111192-U4800VLX-8
+BIOS:           AMI, 367 UNICHIP 386 BIOS VER 1.0 (1886636)
+ROM:            MX27C512PC (64k)
+File:           3ucm002.bin
+MD5:            5826fee864efa5ea4c9d9ec198d6f547
+Comment:        -

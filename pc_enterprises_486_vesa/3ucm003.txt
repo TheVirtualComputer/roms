@@ -1,0 +1,13 @@
+Name:           367C
+Revision:       REV 1.0
+CPU/FPU:        Am386DX-40, 387
+Chipset:        UniChip U4800-VLX
+ICs:            IS61C256AH-15N (4), IS61C64AH-15N, HM82C206AQ, HT6542
+Memory:         SIMM-30 (8)
+Exp. slots:     ISA-8 (1), ISA-16 (5)
+Id string:      ???
+BIOS:           AMI; UNICHIP BIOS VER 2.0A 09/27/1993
+ROM:            27C512 (64k)
+File:           3ucm003.bin
+MD5:            477b628d2bc6fd19073fd68c7ee3d7d9
+Comment:        [386dx/uni3dx40.zip]
