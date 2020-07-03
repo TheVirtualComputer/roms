@@ -1,0 +1,1 @@
+copy /b f000.bin + f800.bin xt.rom
