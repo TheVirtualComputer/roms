@@ -1,0 +1,13 @@
+Name:           EISA-486SV1
+Revision:       REV 1.2
+CPU/FPU:        Socket 1
+Chipset:        SiS 85C406/411/420/431
+ICs:            W24257AK-15 (9), DS1225Y-200, DS12887, DS1000-50, MEGA-KB-H-WP
+Memory:         SIMM-30 (8)
+Exp. slots:     EISA (7), EISA/VLB (1)
+Id string:      05/20/94-SIS-486/EISA-E-486SV1-00
+BIOS:           Award, EISA 486, S/N:003908657
+ROM:            M27C512 (64k)
+File:           4siw002.bin
+MD5:            e336736c7ece6468887729a0b03d5d16
+Comment:        -
