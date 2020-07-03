@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        Am386DX-40, IIT 3C87-40
+Chipset:        FOREX FRX46C521, KS83C206Q
+ICs:            LT38C41, W2465AK-15, AS7C256-20PC
+Memory:         SIMM-30 (4)
+Exp. slots:     ISA-16 (5)
+Id string:      40-0G00-009999-00101111-111192-4X521-F
+BIOS:           AMI; 11/11/92
+ROM:            MX27C512PC-12 (64k)
+File:           3fom001.bin
+MD5:            c44c965503ae92228b74205eacacd546
+Comment:        [386dx/frx521.zip]
