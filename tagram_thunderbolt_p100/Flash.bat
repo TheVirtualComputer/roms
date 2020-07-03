@@ -1,0 +1,1 @@
+awdflash %1 /cc /cd /cp

@@ -1,0 +1,282 @@
+<html>
+<head>
+   <title>Award Flash Upgrade Utility</title>
+   <meta name="GENERATOR" content="Mozilla/2.01Gold (Win32)">
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1 align=center>Award Software International&reg; </h1>
+
+<h1 align=center>Flash Upgrade Utility User's Guide </h1>
+
+<h4 align=center><i>Elite</i>BIOS™ Version 4.51PG </h4>
+
+<center><p><a href="../tech/utils.htm">Back to BIOS Utilities
+<br>
+<br></a><a href="docs.htm">Back to BIOS Setup Documents</a> </p></center>
+
+<p>
+<hr width="100%" >
+<hr width="100%" >In the examples given here, we use the file name <i>newbios.bin
+</i>to represent the new BIOS and the file name <i>oldbios.bin</i> to represent
+the old BIOS. Note that these file names are only examples to help you
+understand the updating process. </p>
+
+<p>Awdflash.exe commands are not case-sensitive. Upper- or lowercasing
+of command letters in this manual is for clarity only. </p>
+
+<h2>
+<hr width="100%" >Preparation</h2>
+
+<p>The upgrade process requires two files: </p>
+
+<ul>
+<li>The new BIOS file <i>(</i>e.g., <i>newbios.bin)</i> </li>
+
+<li>The upgrade utility (awdflash.exe). </li>
+</ul>
+
+<p>Although you may conceivably use a different media for the files, this
+manual assumes that you are using a floppy disk. </p>
+
+<ol>
+<li>Create a bootable floppy disk. </li>
+
+<li>Transfer the two Award files listed above onto the diskette. </li>
+
+<li>Check whether your system protects the BIOS EPROM chip by a jumper
+setting. If necessary, change the jumper setting to allow a flash to the
+EPROM. </li>
+</ol>
+
+<p>Now you are ready to start the upgrade process. </p>
+
+<p><i><b>WARNING! DO NOT</b> interrupt the upgrade program while it runs!
+Interrupting the program leaves the system without a BIOS and unusable.
+If by some unlikely chance the power goes off during the few seconds the
+program requires to run, the system is left without a working BIOS and
+needs a correctly programmed flash EPROM installed.</i> </p>
+
+<p><i>If you are running the BIOS in an Intel 28F001BX-T flash memory chip,
+the 8K boot block area may retain its original code during the update process,
+depending on hardware settings (e.g., boot-block jumper setting).</i> </p>
+
+<h2>
+<hr width="100%" >Running the Program</h2>
+
+<ol>
+<li>Boot the system from the bootable floppy diskette you created. Booting
+from the diskette bypasses loading drivers from the CONFIG.SYS and AUTOEXEC.BAT
+files on the hard drive, eliminating the possibility of loading a program
+(e.g., a memory manager) that conflicts with the Award flash utility. </li>
+</ol>
+
+<p><i><b>NOTE: </b>The Award flash utility cannot run when EMM386 or QEMM
+are loaded. If you try, an error message appears.</i> </p>
+
+<ol start=2>
+<li>At the DOS command line, type <b><i>awdflash</i></b> and press Enter.
+
+<br>A screen similar to this appears: </li>
+</ol>
+
+<ul>
+<ul>
+<table cellpadding=4>
+<tr>
+<th colspan=2 align=center>
+<hr width="100%" >FLASH MEMORY WRITER v5.3x 
+<br>Copyright 1996, Award Software International 
+<hr width="100%" ></th>
+</tr>
+
+<tr>
+<td><b>For I430HX-2A59F000 
+<br>Flash Type - 
+<br>
+<br>File Name to Program:</b> 
+<hr width="100%" ></td>
+
+<td valign=top><b>DATE: 06/18/96 </b>
+<br>
+<br>
+<br>
+<hr width="100%" ></td>
+</tr>
+</table>
+</ul>
+</ul>
+
+<ol start=3>
+<li>The cursor should be opposite <b>File Name to Program</b> 
+<br></li>
+
+<li>Type the name of the new BIOS file (e.g., <i>newbios.bin</i>), and
+press Enter. 
+<br></li>
+
+<li>At the bottom of the menu, this prompt appears: </li>
+
+<ul>
+<p><b>Do You Want to Save BIOS (Y/N)? </b></p>
+</ul>
+
+<li>If you <b>DO</b> <b>NOT </b>wish to save the old BIOS, type <b>N</b>
+and press Enter. Then move to step 8. 
+<br>
+<br>If you <b>DO </b>wish to save the old BIOS, respond <b>Y</b>, and press
+Enter. 
+<br></li>
+
+<li>In the <b>File Name to Save</b> field, type a file name for the old
+BIOS (for example, <i>oldbios.bin</i>), and press Enter. 
+<br>
+<br>Your old BIOS is saved in a file as named, in the default drive and
+directory (in this example, on the A drive). 
+<br></li>
+
+<li>Then the program prompts you </li>
+
+<ul>
+<p><b>Do You Want to Update? (Y/N)</b> </p>
+</ul>
+
+<li>If you <b>DO</b> <b>NOT </b>wish to update the BIOS, type <b>N</b>
+and press Enter. The program exits to the command line. Skip the remainder
+of this section and go directly to the next section. 
+<br>
+<br>If you <b>DO </b>wish to update the BIOS, respond <b>Y</b> and press
+Enter. When the updating is finished, the following message appears:</li>
+
+<ul>
+<p><b>Programming Flash Memory - 1FF00 OK 
+<br>
+<br>Please Power off or Reset System</b> </p>
+</ul>
+
+<li>Restart your system. Your BIOS should be successfully updated. </li>
+</ol>
+
+<h2>
+<hr width="100%" >Command Line Parameters</h2>
+
+<p>You can run the BIOS flash update utility at the DOS command line. This
+section describes the command line parameters and switches, with examples
+of their usage. </p>
+
+<p><i><b>NOTE: </b>This document describes parameters implemented in Award
+flash update utility version 5.31. For a full list of parameters in the
+version you are running, type awdflash /? and press Enter</i>. </p>
+
+<h3>
+<hr width="100%" >Save/Update</h3>
+
+<dt>/P </dt>
+
+<dd>Program (update) BIOS; switch <b>y</b> or <b>n</b>. </dd>
+
+<dt>/S </dt>
+
+<dd>Save old BIOS; switch <b>y</b> or <b>n</b>. </dd>
+
+<h4>
+<hr width="100%" >Example 1 </h4>
+
+<p>To program a new BIOS and save the old BIOS, enter the following at
+the command line: </p>
+
+<ul>
+<p>awdflash <i>newbios.bin</i> /Py <i>oldbios.bin</i> /Sy </p>
+</ul>
+
+<p>The program saves the old BIOS to the file as named and updates it with
+the new BIOS. </p>
+
+<h4>
+<hr width="100%" >Example 2 </h4>
+
+<p>To program a new BIOS without saving the old BIOS, enter the following
+at the command line: </p>
+
+<ul>
+<p>awdflash <i>newbios.bin</i> /Sn </p>
+</ul>
+
+<p>After executing this command, the program prompts you: </p>
+
+<ul>
+<p><b>Do You Want to Update? (Y/N)</b> </p>
+</ul>
+
+<p>Type <b>Y</b> in response. </p>
+
+<p>
+<hr width="100%" ><b>Example 3 </b></p>
+
+<p>To save the old BIOS to a file without updating it, enter the following
+at the command line: </p>
+
+<ul>
+<p>awdflash /Pn <i>oldbios.bin</i> </p>
+</ul>
+
+<p>After executing this command, the program prompts you: </p>
+
+<ul>
+<p><b>Do You Want to Save BIOS (Y/N)? </b></p>
+</ul>
+
+<p>Type <b>Y</b> in response. </p>
+
+<h3>
+<hr width="100%" >Clear Data</h3>
+
+<p>The Award flash utility version 5.31 and above has three additional
+command line parameters: </p>
+
+<dt>/CC </dt>
+
+<dd>Clear CMOS. </dd>
+
+<dt>/CP </dt>
+
+<dd>Clear PnP data (ESCD) </dd>
+
+<dt>/CD </dt>
+
+<dd>Clear DMI data </dd>
+
+<p>
+<hr width="100%" ></p>
+
+<h2>Proprietary Notice and Disclaimer</h2>
+
+<p>Unless otherwise noted, this document and the information herein disclosed
+are proprietary to Award Software International Inc. (Award). Any person
+or entity to whom this document is furnished or who otherwise has possession
+thereof, by acceptance agrees that it will not be copied or reproduced
+in whole or in part, nor used in any manner except to meet the purposes
+for which it was delivered. </p>
+
+<p>The information in this document is subject to change without notice,
+and should not be considered as a commitment by Award. Although Award will
+make every effort to inform users of substantive errors, Award disclaims
+all liability for any loss or damage resulting from the use of this document
+or any hardware or software described herein, including without limitation
+contingent, special, or incidental liability. </p>
+
+<p><i>Elite</i>BIOS is a trademark of Award Software International Inc.
+
+<br>Award Software International and the Award logo are registered trademarks
+of Award Software International Inc. 
+<br>All other products and brand names are trademarks and registered trademarks
+of their respective companies. </p>
+
+<center><p>
+<hr width="100%" ><a href="../copyritm.htm">Copyright &copy; 1997, Award
+Software International Inc. All rights reserved.</a> </p></center>
+
+<center><p>Document date 8 October 96.</p></center>
+
+</body>
+</html>
