@@ -1,0 +1,19 @@
+Name:           ???
+Revision:       ???
+CPU/FPU:        386SX-16, (387SX ???)
+Chipset:        Intel ...
+ICs:            ???
+Memory:         ???
+Exp. slots:     ???
+Id string:      ???
+BIOS:           Phoenix; 01/15/88
+ROM:            ??? (32k)
+File:           3iip001h.bin
+MD5:            c80c941244962bb182165c636f00997d
+ROM:            ??? (32k)
+File:           3iip001l.bin
+MD5:            afe2fc8367cd2e614ce93d44649837bf
+Comment:        мать в виде fatherboard - на кросс-плате (практически
+Comment:        пассивна) только IDE
+Comment:        применима только вместе с корпусом SlimElegance by ADI
+Comment:        [386sx/sx16adi.zip]

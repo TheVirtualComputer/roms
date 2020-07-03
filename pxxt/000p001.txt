@@ -1,0 +1,13 @@
+Name:           ??? (KT-10) (744/85002/077)
+Revision:       ??? (VER.01-J)
+CPU/FPU:        8088, 8087
+Chipset:        -
+ICs:            ???
+Memory:         41256 (16)
+Exp. slots:     ISA-8 (8)
+Id string:      ???
+BIOS:           Phoenix
+ROM:            2764 (UMUA169 KT-B10S-P01) (8k)
+File:           000p001.bin
+MD5:            010fe851f41f577d23864bc808932352
+Comment:        U38 (2764), U49 (27256) not exist, 10 MHz turbo board

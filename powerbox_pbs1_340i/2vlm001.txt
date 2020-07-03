@@ -1,0 +1,13 @@
+Name:           ???
+Revision:       VER 1.2
+CPU/FPU:        CS80C286-20, 287
+Chipset:        VLSI VL82C311L-FC4, VL82C113A-FC
+ICs:            -
+Memory:         SIPP (4), есть 2?-ногие панели (8)
+Exp. slots:     ISA-16 (6)
+Id string:      20-0001-001223-00101111-050591-KB-8042--0
+BIOS:           AMI; S/N: 0568453; 05/05/91
+ROM:            27512 (64k)
+File:           2vlm001.bin
+MD5:            78ef295e7c07fd6f6a807fcad2b0b943
+Comment:        -
